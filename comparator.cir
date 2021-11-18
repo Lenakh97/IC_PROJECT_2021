@@ -1,0 +1,17 @@
+
+** COMPARATOR **
+
+**Name Drain Gate Source Bulk Parameters
+
+P1 V_A V_A VDD VDD pmos w=0.5u l=0.5u
+P2 V_B V_A VDD VDD pmos w=0.5u l=0.5u
+pmos3 V_D V_B VDD VDD pmos w=0.5u l=0.5u
+pmos4 VCMP_OUT V_D VDD VDD pmos w=0.5u l=0.5u
+nmos1 V_A VSTORE V_C V_C nmos w=0.15u l=45u
+nmos2 V_B VRAMP V_C V_C nmos w=0.15u l=45u
+nmos3 V_C BIAS VSS VSS nmos w=0.15u l=45u
+nmos4 V_D BIAS VSS VSS nmos w=0.15u l=45u
+nmos5 VCMP_OUT V_D VSS VSS nmos w=0.15u l=0.5u
+
+.end
+
