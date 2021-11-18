@@ -1,0 +1,4 @@
+pixelSensorFsm.v
+pixelSemsorFsm_tb.v
+pixelTop.v
+pixelTop_tb.v

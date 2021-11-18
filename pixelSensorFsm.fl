@@ -2,4 +2,6 @@
 pixelSensorFsm.v
 pixelSensorFsm_tb.v
 pixelArray.v
+pixelTop.v
+pixelTop_tb.v
 
